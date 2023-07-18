@@ -1,0 +1,233 @@
+/*Work sans font from google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@400;700&family=Poppins:wght@400;500;600;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+/*Share style*/
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Work Sans', sans-serif;
+}
+
+:root {
+    --primary-color: #0B0223;
+    --secondary-color: #534C64;
+    --primary-font-size: 48px;
+}
+
+.primary-btn {
+    color:white;
+    border: none;
+    margin-right: 10px;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    padding: 10px 30px;
+}
+
+/*start header style*/
+header {
+    padding: 20px 50px;
+    background-color: aqua;
+}
+
+/*Style navbar section*/
+.navbar-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(128, 147, 147);
+}
+
+/*style section left*/
+.logo {
+    display: flex;
+    gap: 20px;
+}
+.logo-img {
+
+}
+.logo-title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+/*style section right*/
+.manus {
+    display: flex;
+    align-items: center;
+}
+.manus> div {
+    display: flex;
+    align-items: center;
+}
+.manus .nav-icon {
+    display: flex;
+    text-align: center;
+    padding: 15px 15px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+}
+.manus li {
+    list-style: none;
+    margin-right: 25px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.manus li a {
+    text-decoration: none;
+    color: #3C354F;
+}
+
+/*Style Banner section*/
+
+/*style left side of banner section*/
+.banner-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: brown;
+    padding: 30px 150px
+
+}
+.banner-text {
+    background-image: url("images/Group 14.png");
+}
+.banner-title-h2 {
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.banner-title-h1 {
+    text-align: center;
+    font-size: 95px;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.banner-desc {
+    color: var(--secondary-color);
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: lowercase;
+}
+.banner-text-btn {
+    padding-top: 20px;
+}
+.banner-btn-one {
+    color:white;
+    border: none;
+    margin-right: 10px;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    padding: 10px 30px;
+}
+.banner-btn-two {
+    display: inline-flex;
+    padding: 10px 30px;
+    border: none;
+    align-items: flex-start;
+    gap: 10px;
+    color: white;
+    border-radius: 48px;
+    background: #4EC5F7;
+}
+
+/* style right side of banner section*/
+.banner-img {
+    max-width: 600px;
+}
+.banner-img img {
+    width: 100%;
+}
+
+/*End header style*/
+/*style Gamer section*/
+.gamer-section {
+
+}
+.gamer-img-container {
+
+}
+.gamer-text-container {
+
+}
+.gammer-title {
+
+}
+.gamer-desc {
+
+}
+.primary-btn {
+
+}
+.gamer-caption {
+
+}
+.gamer-h5 {
+    
+}
+
+
+/*Responsive mobile device*/
+@media screen and (max-width: 576px) {
+    /*responsive navbar*/
+    .navbar-section {
+        flex-direction: column;
+        
+    }
+    .manus {
+        flex-direction: column;
+        padding:20px;
+        align-items: center;
+    }
+    .manus div {
+        padding: 20px 0px;
+        align-items: center;
+    }
+
+    /*responsive banner section*/
+    .banner-section {
+        flex-direction: column;
+    }
+    header {
+        padding: 20px 0px;
+    }
+    .banner-text {
+        padding:35px;
+    }
+    .banner-img img {
+        width: 400px;
+    }
+
+}
+
+/*Responsive tablet Device*/
+@media screen and (min-width: 577px) and (max-width: 768px) {
+    /*responsive navbar*/
+    .navbar-section {
+        flex-direction: column; 
+    }
+    .manus {
+        padding: 30px 0px;
+    }
+
+    /*responsive banner section*/
+    .banner-section {
+        flex-direction: column;
+    }
+    header {
+        padding: 20px 0px;
+    }
+    .banner-text {
+        padding:35px 0px;
+
+    }
+    .banner-img img {
+        width: 500px;
+    }
+    
+}
