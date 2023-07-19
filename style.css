@@ -1,5 +1,6 @@
 /*Work sans font from google fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@400;700&family=Poppins:wght@400;500;600;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
 /*Share style*/
 * {
     margin: 0%;
@@ -36,7 +37,6 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* background-color: rgb(128, 147, 147); */
 }
 
 /*style section left*/
@@ -308,6 +308,48 @@ header {
     background-color: white;
     border: 1px solid #FF42A5;
     border-radius: 50px;
+}
+
+/*style footer section*/
+.footer-section {
+    background-color: var(--primary-color);
+    padding: 100px 0px;
+    color: white;
+    text-align: center;
+}
+.footer-logo {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.footer-logo-img {
+    width: 50px;
+    height: 30px;
+}
+.footer-logo-title {
+    font-size: 30px;
+    color: white;
+}
+.footer-nav {
+display: flex;
+gap: 10px;
+justify-content: center;
+padding: 20px 0px;
+}
+.footer-nav li {
+    list-style: none;   
+}
+.footer-media a {
+    margin-right: 20px;
+}
+.footer-nav li a {
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+
+}
+.copyright {
+    font-size: 8px;
 }
 
 
