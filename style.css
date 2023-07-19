@@ -7,9 +7,7 @@
     padding: 0%;
     font-family: 'Work Sans', sans-serif;
 }
-body {
-    border:1px solid #0B0223;
-}
+
 
 :root {
     --primary-color: #0B0223;
@@ -37,6 +35,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 20px 0px;
 }
 
 /*style section left*/
@@ -225,13 +224,10 @@ header {
     display: flex;
     justify-content: center;
     gap: 50px;
-    border: 1px solid red;
     padding: 20px 0px;
 }
 .card-box {
-    max-width:200px;
-    border: 1px solid black;
-    
+    max-width:200px;    
 }
 .card {
     
@@ -269,7 +265,6 @@ header {
     font-weight: 400;
 }
 .play-image {
-    border: 1px solid red;
     max-width: 400px;
 }
 .img-child {
