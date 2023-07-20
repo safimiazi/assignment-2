@@ -232,7 +232,15 @@ header {
     max-width:200px;    
 }
 .card {
-    
+    position: relative;
+}
+.card:hover .card{
+    opacity: 0.5;
+    border-radius: 8px;
+
+}
+.card:hover .fa-solid {
+    display: block;
 }
 .card-img {
     max-width: 200px;
@@ -243,6 +251,14 @@ header {
     font-weight: 500;
 
 }
+.fa-solid {
+    font-size: 40px;
+    position: absolute;
+    top: 100px;
+    right: 80px;
+    display: none;
+}
+
 
 
 /*Style play section*/
@@ -422,6 +438,8 @@ padding: 20px 0px;
         flex-direction: column;
         align-items: center;
     }
+    
+      
     /*responsive play section*/
     .play-section {
         flex-direction: column;
